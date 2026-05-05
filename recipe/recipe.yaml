@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: legend-lh5io
-  version: "0.2.2"
+  version: "0.2.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/legend_lh5io-${{ version }}.tar.gz
-  sha256: 0ffbadd6d575ad5538200a5bb162be522b8f06947b93ceaa8e837a97dfaf0dad
+  sha256: 5a0be03169695a3e83cad6e6edb75386c9cf16cc5437fc44b873958f661a1589
 
 build:
   number: 0
@@ -33,7 +33,7 @@ requirements:
     - numpy >=1.21
     - pandas >=1.4.4
     - parse
-    - legend-pydataobj >=2
+    - legend-pydataobj >=2.0.1
     - __unix
 
 tests:
