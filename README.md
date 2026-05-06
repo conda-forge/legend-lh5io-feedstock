@@ -3,7 +3,7 @@ About legend-lh5io-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/legend-lh5io-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/legend-exp/legend-lh5io
+Home: https://pypi.org/project/legend-lh5io
 
 Package license: GPL-3.0-only
 
