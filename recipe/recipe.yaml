@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.2.4
+  version: 0.2.5
   python_check_max: '3.14'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/legend-lh5io/legend_lh5io-${{ version }}.tar.gz
-  sha256: 191c80bdaf5ea0f1af49603224e1efacf95b536381e978be1086307ba841cd8c
+  sha256: e586b7706c4d2737c193497163e4f9f0d6a9830165a256abb725ec3c85aee3e0
 
 build:
   number: 0
@@ -36,6 +36,7 @@ requirements:
     - pandas >=1.4.4
     - parse
     - python >=${{ python_min }}
+    - rich
 tests:
   - python:
       imports: lh5
