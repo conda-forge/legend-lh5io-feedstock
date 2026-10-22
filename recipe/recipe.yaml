@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.7"
+  version: "0.3.0"
   python_check_max: '3.14'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/legend-lh5io/legend_lh5io-${{ version }}.tar.gz
-  sha256: 192a164d0d29f2d8a7637019ecf1cc189e2ceb0f4558bc80ceb5c3ed9f69b44d
+  sha256: 4d56c87a276e62cb318587ab6b38bfcc10d2d055112154a5694018187f1f6ff6
 
 build:
   number: 0
